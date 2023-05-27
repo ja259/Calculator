@@ -21,10 +21,18 @@ body{
     border-radius: 10px;
 }
 
+.number:hover{
+    background-color: palegreen;
+}
+
 
 .operator{
     border: 1px solid steelblue;
     border-radius: 10px;
+}
+
+.operator:hover{
+    background-color: aqua;
 }
 
 
@@ -33,14 +41,39 @@ body{
     border-radius: 10px;
 }
 
+.decimal:hover{
+    background-color: goldenrod;
+}
+
 
 .equal{
     border: 1px solid saddlebrown;
     border-radius: 10px;
 }
 
+.equal:hover{
+    background-color: bisque;
+}
+
 
 #clear-btn{
     border: 1px solid magenta;
     border-radius: 10px;
+}
+
+#clear-btn:hover{
+    background-color: plum;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 300px;
+    border: 1px solid salmon;
+    height: 75px;
 }
